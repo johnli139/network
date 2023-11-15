@@ -6,6 +6,7 @@ do
 
 scp startping.sh root@$HOST:/root/
 scp killping.sh root@$HOST:/root/
+scp hosts root@$HOST:/root/
 ssh root@$HOST "/root/startping.sh"
 
 done
